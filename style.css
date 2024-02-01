@@ -1,0 +1,8 @@
+#changeColor {
+  color: green;
+  font-size: 50px;
+}
+
+#colorCheckbox:checked + #changeColor {
+  color: red;
+}
